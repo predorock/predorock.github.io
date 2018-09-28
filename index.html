@@ -36,12 +36,12 @@
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="img/avatar.jpg" alt="avatar">
+              <img src="img/avatar.jpeg" alt="avatar">
             </div>
             <div id="text-header">
               <h1>
                 Hello,<br> my name is 
-                  <span>Marco</span><sup>24yo</sup> and I am a software developer
+                  <span>Marco</span><sup>26yo</sup> and I am a software developer
               </h1>
             </div>
           </div>
@@ -142,7 +142,9 @@
           </div>
           <div class="box">
             <h2>Tweets</h2>
-            <a class="twitter-timeline" href="https://twitter.com/predorock" data-widget-id="715532084144680961">Tweet di @predorock</a>
+            <a class="twitter-timeline" href="https://twitter.com/predorock?ref_src=twsrc%5Etfw">
+              Tweets by predorock
+            </a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-5">
@@ -190,14 +192,15 @@
               <div class="item-skills" data-percent="1">HTML</div>
               <div class="item-skills" data-percent="0.90">CSS</div>
               <div class="item-skills" data-percent="0.95">Javascript</div>
-              <div class="item-skills" data-percent="0.90">jQuery</div>
-              <div class="item-skills" data-percent="0.75">PHP</div>
-              <div class="item-skills" data-percent="0.50">Laravel 5 (framework)</div>
-              <div class="item-skills" data-percent="0.80">AngularJs (framework)</div>
+              <div class="item-skills" data-percent="1">AngularJs</div>
+              <div class="item-skills" data-percent="0.75">Angular</div>
               <div class="item-skills" data-percent="0.55">Python</div>
-              <div class="item-skills" data-percent="0.30">Django (framework)</div>
               <div class="item-skills" data-percent="0.70">Java</div>              
-              <div class="item-skills" data-percent="0.60">Prestashop</div>              
+              <div class="item-skills" data-percent="0.60">Prestashop</div>
+              <div class="item-skills" data-percent="0.50">Google Cloud Platform</div>
+              <div class="item-skills" data-percent="0.50">Firestore</div>
+              <div class="item-skills" data-percent="0.70">RxJs</div>     
+              <div class="item-skills" data-percent="0.70">Reactive Programming</div>             
               <div class="skills-legend clearfix">
                 <div class="legend-left legend">Beginner</div>
                 <div class="legend-left legend"><span>Proficient</span></div>
@@ -230,9 +233,13 @@
           <!-- HOBBIES -->
           <div class="box">
             <h2>Hobbies</h2>
-            <div class="hobby">Programming</div>
+            <div class="hobby">Travel Animator</div>
+            <div class="hobby">Nightlife public relations</div>
+            <div class="hobby">Gin Tonic</div>
             <div class="hobby">Kick Boxing</div>
-            <div class="hobby">Gym</div>
+            <div class="hobby">MMA</div>
+            <div class="hobby">Judo</div>
+            <div class="hobby">Brazilian Ju-Jitsu</div>
             <div class="hobby">Tech Conferences</div>
             <div class="hobby">Gadgets</div>
             <div class="hobby">Nerd Tv Series</div>
@@ -241,15 +248,18 @@
       </div>
     </div>
     <!-- JQUERY -->
-    <script src="js/jquery.min.js"></script>
+    <script async src="js/jquery.min.js"></script>
     <!-- BOOTSTRAP -->
-    <script src="js/bootstrap.min.js"></script>
+    <script async src="js/bootstrap.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!-- SCRIPTS -->
-    <script src="js/scripts.js"></script>
-    <script>
+    <script async src="js/scripts.js"></script>
+
+    <!-- <script>
     !function(d,s,id){
       var js,fjs=d.getElementsByTagName(s)[0],
           p=/^http:/.test(d.location)?'http':'https';
-          if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script> -->
   </body>
 </html>
